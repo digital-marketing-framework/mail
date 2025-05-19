@@ -1,6 +1,6 @@
 {
     "name": "digital-marketing-framework/mail",
-    "description": "Digital Marketing Framework - Mail",
+    "description": "Anyrel - Mail",
     "license": "GPL-2.0-or-later",
     "type": "library",
     "keywords": [
@@ -23,8 +23,8 @@
     "homepage": "https://www.mediatis.de",
     "require": {
         "php": "^8.1",
-        "digital-marketing-framework/core": "^2.3",
-        "symfony/mailer": "^5.4 || ^6.3"
+        "digital-marketing-framework/core": "dev-feature/MFR-136-t3-13",
+        "symfony/mailer": "^6.3 || ^7.2"
     },
     "require-dev": {
         "mediatis/coding-standards": "^1.0"
