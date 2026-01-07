@@ -143,5 +143,10 @@
         "fix:php": "Runs all fixers for the PHP code.",
         "fix:php:cs": "Fixes the code style with PHP-CS-Fixer.",
         "fix:php:rector": "Fixes code structures with PHP Rector."
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-main": "2.x-dev"
+        }
     }
 }
