@@ -37,7 +37,7 @@ class MailUtility
             $addresses = GeneralUtility::castValueToArray($addresses);
         }
 
-        $addresses = array_filter($addresses);
+        $addresses = array_filter($addresses, static fn ($value): bool => (bool)$value);
 
         $result = [];
         foreach ($addresses as $address) {

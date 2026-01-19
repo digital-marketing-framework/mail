@@ -42,9 +42,15 @@
     },
     "config": {
         "allow-plugins": {
-            "ergebnis/composer-normalize": true
+            "ergebnis/composer-normalize": true,
+            "phpstan/extension-installer": true
         },
         "sort-packages": true
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-main": "2.x-dev"
+        }
     },
     "scripts": {
         "ci": [
@@ -143,10 +149,5 @@
         "fix:php": "Runs all fixers for the PHP code.",
         "fix:php:cs": "Fixes the code style with PHP-CS-Fixer.",
         "fix:php:rector": "Fixes code structures with PHP Rector."
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-main": "2.x-dev"
-        }
     }
 }
