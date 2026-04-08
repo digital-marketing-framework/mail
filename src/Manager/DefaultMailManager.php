@@ -91,10 +91,7 @@ class DefaultMailManager implements MailManagerInterface
 
     public function createMessage(): Email
     {
-        /** @var Email $message */
-        $message = new Email();
-
-        return $message;
+        return new Email();
     }
 
     public function sendMessage(Email $message): void
