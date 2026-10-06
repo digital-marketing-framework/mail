@@ -29,6 +29,9 @@
     "require-dev": {
         "mediatis/coding-standards": "^2.0"
     },
+    "conflict": {
+        "digital-marketing-framework/typo3-mail": "<3.0"
+    },
     "autoload": {
         "psr-4": {
             "DigitalMarketingFramework\\Mail\\": "src/"
