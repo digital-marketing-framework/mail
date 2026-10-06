@@ -71,7 +71,7 @@ class MailUtility
     {
         $pattern = '/[\\r\\n\\f\\e]/';
         if (preg_match($pattern, $string) > 0) {
-            $string = '';
+            return '';
         }
 
         return $string;
